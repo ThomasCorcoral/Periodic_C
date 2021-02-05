@@ -1,37 +1,37 @@
-## Quel est ce projet ?
-Le but de ce projet est de faire dialoguer deux programmes entre eux. Au final on aura un programme qui écoute en continue et un second avec qui il communiquera. Ce second sera appelé dans un autre terminal. Les deux programmes communiqueront grace au PID du premier stocké dans un fichier.<br><br>
-Le second permettra d'envoyer au premier une date, une fréquence et une commande. Cette commande sera alors executé à partir de la date renseigné et ensuite répété à un intervalle régulier défini par la fréquence. Tous les arguments sont en secondes.<br>
-<i>Pour plus de détails le fichier Details.txt répond aux questions du projet et donc explique bon nombre de choix techniques</i>
+## What is this project?
+The aim of this project is to bring two programmes together. In the end we will have a program that listens continuously and a second one with which it will communicate. This second one will be called in another terminal. Both programs will communicate through the PID of the first stored in a file.<br><br>
+The second will send a date, a frequency and a command to the first. This command will then be executed from the date entered and then repeated at a regular interval defined by the frequency. All arguments are in seconds.<br>
+<i>For more details the file Details.txt answers the questions of the project and therefore explains many technical choices</i>
 
 ## Demo
 
 ![Preview](https://github.com/ThomasCorcoral/Periodic_C/blob/master/periodic.png)
 
-## Comment a-t-il été réalisé ?
+## How was it done?
 
-Le projet a entièrement été réalisé en C#.
+The project was entirely carried out in C.
 
-## Guide d'installation
+## Installation Guide
 
-#### Etape 1
-Clonez le projet Github. Rendez vous dans le dossier.
+#### Step 1
+Clone the Github project. Go to the folder.
 
-#### Etape 2
-Créez les executables en tapant make
+##### Step 2
+Create executables by typing make
 
-#### Etape 3
-Ouvrez <b>2</b> terminaux
+##### Step 3
+Open <b>2</b> terminals
 
-#### Etape 4 
-Dans le premier terminal lancez period (./period)
+#### Step 4
+In the first terminal run period (./period)
 
-#### Etape 5
-Dans le second terminal lancez les commandes souhaitées<br>
-par exemple ./periodic 0 5 ls<br>
+#### Step 5
+In the second terminal run the desired commands:s<br>
+for example . /periodic 0 5 ls<br>
 
-#### Etape 6
-Pour afficher à nouveau le viewer, il vous faudra le relancer dans le premier terminal (./race-viewer)
+##### Step 6
+To display the viewer again, you will need to restart it in the first terminal (./race-viewer)
 
-#### Etape 7
-Pour voir les commandes rentrées ./periodic dans le second termial<br>
-Pour arrêter period ctrl+c dans le premier.
+##### Step 7
+To see the orders returned ./periodic in the second termial<br>
+To stop period ctrl+c in the first.
